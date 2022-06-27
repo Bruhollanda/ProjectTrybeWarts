@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(226, 225, 225);
+  line-height: 30px;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  padding: 5px 200px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-size: 20px;
+  align-self: center;
+}
+
+button {
+  padding: 5px;
+  border-color: rgb(102, 27, 172);
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(102, 27, 172);
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-evenly;
+}
+
+.trybewarts-login input {
+  width: 25%;
+  padding: 5px;
+  border: white;
+  border-radius: 5px;
+}
+
+.trybewarts-login button {
+  width: 30%;
+  padding: 5px;
+  border: rgb(102, 27, 172);
+  border-radius: 5px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  align-content: center;
+  flex-flow: column wrap;
+}
+
+#evaluation-form h2 {
+  text-align: center;
+}
+
+#dados {
+  padding: 20px;
+  width: 450px;
+  border-top: 3px solid rgb(201, 201, 201);
+  border-bottom: 3px solid rgb(201, 201, 201);
+}
+
+#trybewarts-forms-logo {
+  margin-right: 60px;
+}
+
+#dados input {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+#dados select {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  width: 35%;
+  border: 2px solid white;
+}
+
+#divFamily {
+  display: flex;
+  flex-direction: column;
+}
+
+#family-subject {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 3px solid rgb(201, 201, 201);
+}
+
+#div-subject {
+  width: 300px;
+}
+
+#elements {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#rating {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#agreement {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  margin-top: 10px;
+}
